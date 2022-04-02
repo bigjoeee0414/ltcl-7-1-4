@@ -20,6 +20,7 @@
                 </div>
             @endforeach
         </div>
+        <div class="back">[<a href="/">back</a>]</div>
         <div class='paginate'>
              {{ $posts->links() }}
         </div>
